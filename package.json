@@ -1,17 +1,30 @@
 {
-  "name": "STICKERS",
+  "name": "stickers",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.3"
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.8"
   },
   "devDependencies": {
     "nodemon": "^2.0.15",
     "sucrase": "^3.20.3"
   },
   "scripts": {
-    "dev": "nodemon ./src/server.js"
-  }
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edgaregidio/backend-server-node-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/edgaregidio/backend-server-node-js/issues"
+  },
+  "homepage": "https://github.com/edgaregidio/backend-server-node-js#readme",
+  "description": ""
 }
